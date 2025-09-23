@@ -20,15 +20,17 @@ workdir=$(pwd)
 celltypist_img="$HOME/singularity/images/celltypist.sif"
 prep_script="prep_celltypist.R"
 
-# Derive prefix from model file (remove extension, path)
-prefix=$(basename "$model_file" .pkl)
+# # Derive prefix from model file (remove extension, path)
+# prefix=$(basename "$model_file" .pkl)
 
-# Step 1: Prepare input matrix
-Rscript $prep_script "$seurat_rds" "$t2g_file" "${prefix}_gene_counts.csv"
+# # Step 1: Prepare input matrix
+# Rscript $prep_script "$seurat_rds" "$t2g_file" "${prefix}_gene_counts.csv"
+
 
 # Step 2: Run CellTypist
+
 singularity exec "$celltypist_img" celltypist \
-    --model "$model_file" \
-    --input "${prefix}_gene_counts.csv" \
-    --majority-voting \
-    --output "${prefix}_celltypist_results"
+     --model /ei/projects/3/3e4d9f24-546b-4e65-b3bd-e14aa572cf87/data/SK/annotation/isosceles_isoquant/celltypist_models/Developing_Human_Hippocampus.pkl \
+     --indata gene_counts_cells_as_rows.csv \
+     --majority-voting \
+     --prefix "Developing_Human_Hippocampus_celltypist_results"

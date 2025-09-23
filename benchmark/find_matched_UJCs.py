@@ -40,8 +40,8 @@ def parse_junctions(row):
         # Output chrom, exon count, list of junctions, start, end, first exon end, last exon start
         return chrom, block_count, tuple(junctions), row["start"], row["end"], first_exon_end, last_exon_start
 
-def find_matching_isoforms(file1, file2, outfile, max_diff=100):
-    """Find isoforms with matching splice junctions, start/end within 100bp, and matching first/last exons."""
+def find_matching_isoforms(file1, file2, outfile, max_diff=500):
+    """Find isoforms with matching splice junctions, start/end within 500bp, and matching first/last exons."""
     with open(outfile, "w") as out:
         out.write(file1 + "\t" + file2 + "\n")
         
@@ -94,7 +94,7 @@ args = argparser.parse_args()
 file1 = args.file1
 file2 = args.file2
 outfile = args.outfile
-matching_isoforms = find_matching_isoforms(file1, file2, outfile, max_diff=100)
-print("Matching isoforms with identical internal splice junctions and matching first/last exon ends:")
-for iso1, iso2 in matching_isoforms:
-    print(f"{iso1} in file1 matches {iso2} in file2")
+matching_isoforms = find_matching_isoforms(file1, file2, outfile, max_diff=500)
+# print("Matching isoforms with identical internal splice junctions and matching first/last exon ends:")
+# for iso1, iso2 in matching_isoforms:
+#     print(f"{iso1} in file1 matches {iso2} in file2")

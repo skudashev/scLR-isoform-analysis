@@ -1,0 +1,82 @@
+VST Average	Gene	Cell type	Class
+7.032781493	GJA1	Astrocytes	Astrocytes
+4.739281419	DIO2	Astrocytes	Astrocytes
+3.740332239	SOX9	Astrocytes	Astrocytes
+2.645425812	EDNRB	Astrocytes	Astrocytes
+0.547246798	GFAP	Astrocytes	Astrocytes
+0.300354528	FGFR3	Astrocytes	Astrocytes
+-1.543488245	ALDH1L1	Astrocytes	Astrocytes
+-5.228841994	AQP4	Astrocytes	Astrocytes
+-7.112472393	SLC4A4	Astrocytes	Astrocytes
+-9.333879465	MLC1	Astrocytes	Astrocytes
+7.61630355	PDGFRA	Oligodendrocytes	Glia
+4.994905486	CASPR2	Oligodendrocytes	Glia
+2.77646002	ALDOC 	Astrocytes	Glia
+-0.157179798	GAP43	Astrocytes	Glia
+-0.611971006	S100B 	Astrocytes	Glia
+-0.694985268	SLC1A2	Astrocytes	Glia
+-8.522909989	MASH1	Oligodendrocytes	Glia
+-9.270901597	OLIG2	Oligodendrocytes	Glia
+-9.965784285	OLIG1	Oligodendrocytes	Glia
+5.870053902	CCL2	microglia	microglia
+4.290157321	CD83	microglia	microglia
+2.575463117	TMEM119	microglia	microglia
+1.039968531	RUNX1	microglia	microglia
+0.779374253	TLR2	microglia	microglia
+-3.486433796	CX3CR1	microglia	microglia
+-9.197248391	IL1A	microglia	microglia
+-9.965784285	TNF	microglia	microglia
+10.73634861	VIM	NPCs	Neural precursor
+6.165419121	NES	NPCs	Neural precursor
+1.119175465	MSI1	NPCs	Neural precursor
+0.911704763	SOX2	NPCs	Neural precursor
+-1.228206965	PAX6	NPCs	Neural precursor
+-7.639244975	SOX1	NPCs	Neural precursor
+7.365207283	TUBB3	Neuronal	Neuron
+5.304236265	DLG4	Neuronal	Neuron
+5.047708329	SOX4	Neuronal	Neuron
+4.825415949	MAP2	Neuronal	Neuron
+3.347833224	SNAP25	Neuronal	Neuron
+2.94349756	SOX11	Neuronal	Neuron
+2.875867029	DCX	Neuronal	Neuron
+2.670452955	SLC17A7	Neuronal	Neuron
+1.639771241	SATB2	Cortex	Neuron
+0.527624792	FOXP2	Cortex	Neuron
+-0.313945982	SYP	Neuronal	Neuron
+-0.412248426	MAPT	Neuronal	Neuron
+-0.458489038	FoxA1	Midbrain	Neuron
+-0.789354868	Lmx1b	Midbrain	Neuron
+-2.460893619	EMX2	Cortex	Neuron
+-4.956876727	NeuroD1	Neuronal	Neuron
+-5.277434228	POU3F2	Cortex	Neuron
+-5.57002027	TBR1	Cortex	Neuron
+-7.344606503	OTX2	Cortex	Neuron
+-8.571945282	Lmx1a	Midbrain	Neuron
+-9.231042051	NEUROG2	Neuronal	Neuron
+-9.274168958	OTX1	Cortex	Neuron
+-9.396240217	FOXG1	Cortex	Neuron
+-9.965784285	EMX1	Cortex	Neuron
+-9.965784285	FoxA2	Midbrain	Neuron
+-9.965784285	NeuroD2	Neuronal	Neuron
+-9.965784285	NEUROG1	Neuronal	Neuron
+-9.965784285	NeuroG3	Neuronal	Neuron
+3.507201832	SYT1	Neuronal	Neuronal
+0.463970796	STMN2	Neuronal	Neuronal
+-0.024855529	SYN1	Neuronal	Neuronal
+-4.660435292	SST	Neuronal	Neuronal
+-6.044617945	GAD1	Neuronal	Neuronal
+-9.965784285	CCK	Neuronal	Neuronal
+-9.965784285	NPY	Neuronal	Neuronal
+4.726279294	RCOR1	Non-neuro	Other
+4.499547727	REST	Non-neuro	Other
+4.301870101	MYC	iPS	Stem cell
+0.743711426	DNMT3B	iPS	Stem cell
+0.208138262	KLF4	iPS	Stem cell
+0.038571181	LIN28A	iPS	Stem cell
+-0.112255573	POU5F1	iPS	Stem cell
+-0.218785057	PODXL	iPS	Stem cell
+-1.788901552	NANOG	iPS	Stem cell
+-2.244959935	FUT4	iPS	Stem cell
+-4.019818729	IDO1	iPS	Stem cell
+-8.041177914	CXCL5	iPS	Stem cell
+-9.965784285	CDX2	iPS	Stem cell
